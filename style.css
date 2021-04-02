@@ -1,0 +1,103 @@
+body {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  font-family: Roboto, Helvetica, sans-serif;
+  height: 100vh;
+  width: 1200px;
+}
+
+header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-left: 250px;
+ margin-right: 250px;
+}
+
+.logo-name-container {
+  display: flex;
+  align-items: center;
+}
+
+.cartoon-logo {
+  height: 48px;
+  width: 48px;
+}
+
+.website-name {
+  font-family: Roboto, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.section-1 {
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 50px;
+}
+
+.profile-picture {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 15px;
+}
+
+.introduction-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.intro-text {
+  color: grey;
+  font-weight: 300;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.green-line {
+  color: green;
+}
+
+.email-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  border: 1px solid silver;
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.articles-container {
+  background-color:#f4f5f7;
+  padding: 100px 80px;
+}
+
+.header {
+  border-bottom: 1px solid silver;
+  padding-bottom: 80px;
+}
+
+.skills {
+  margin-top: 15px;
+}
