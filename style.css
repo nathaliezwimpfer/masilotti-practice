@@ -101,3 +101,16 @@ h2 {
 .skills {
   margin-top: 15px;
 }
+
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  grid-template-rows: repeat (2, minmax(0,1fr));
+  grid-column-gap: 3rem;
+  grid-column-gap: 4rem;
+}
+
+p {
+  font-size: 16px;
+  color: grey;
+}
